@@ -4,3 +4,9 @@ Starting on this project I first learned the necessary fundamental concepts for 
 
 ![image](https://github.com/ZSheppard/AR-SCARA-Robot-Arm/assets/77692349/a5fcd17e-9cbb-45d1-ac60-d94f50a99c86)
 
+After learning the basics I created a model of the robot arm within a virtual camera with sliders to adjust both the camera position and position of the robots joints.
+
+![image](https://github.com/ZSheppard/AR-SCARA-Robot-Arm/assets/77692349/a7ea0fe7-9c27-4749-a070-c7db83a744d0)
+
+
+Using a printed ChArUco grid as a canvas, I could identify specific points on the paper and set up my coordiante system. The robot would then appear at one of the corners acting as the 0,0 point.
