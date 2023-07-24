@@ -7,8 +7,8 @@ Starting on this project I first learned the necessary fundamental concepts for 
 After learning the basics I created a model of the robot arm within a virtual camera. Using sliders, a user can adjust both the camera position and position of the robots joints.
 
 Control of the joints is divided into two methods: Forward Kinematics and Inverse Kinematics.
-Forward Kinematics means that each joint of the robot arm can be controlled individually.
-Inverse Kinematics controls the end effector (or the tip of the arm) position and has the joints of the robot follow where the user positions the end effector. Inverse Kinematics requires computing equations that represent the joint angles of the robot and wha they have to be to correspond with the desired end effector position. These equations can be large with many, many trig variables which is why they usually require simplification.
+Forward Kinematics is the method where each joint of the robot arm can be controlled individually.
+Inverse Kinematics is the method where the user controls the end effector (or the tip of the arm) position and has the joints of the robot follow where the user positions the end effector. Inverse Kinematics requires computing equations that represent the joint angles of the robot and wha they have to be to correspond with the desired end effector position. These equations can be large with many, many trig variables which is why they usually require simplification.
 
 ![image](https://github.com/ZSheppard/AR-SCARA-Robot-Arm/assets/77692349/a7ea0fe7-9c27-4749-a070-c7db83a744d0)
 
